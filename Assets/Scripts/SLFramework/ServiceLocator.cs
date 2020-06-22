@@ -11,6 +11,7 @@ namespace SLFramework
     {
         private ServiceLocator()
         {
+            Debug.Log("Service locator started...");
         }
 
         /// <summary>
@@ -26,7 +27,7 @@ namespace SLFramework
         /// <summary>
         /// Initializes the service locator with a new instance.
         /// </summary>
-        public static void Initiailze()
+        public static void Initialize()
         {
             Current = new ServiceLocator();
         }
