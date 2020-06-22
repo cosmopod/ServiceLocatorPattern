@@ -90,3 +90,6 @@ crashlytics-build.properties
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
+.idea/.idea.ServiceLocatorPattern/.idea/indexLayout.xml
+.idea/.idea.ServiceLocatorPattern/.idea/projectSettingsUpdater.xml
+.idea/.idea.ServiceLocatorPattern/.idea/vcs.xml
