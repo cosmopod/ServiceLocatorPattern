@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IGameService : MonoBehaviour
+﻿/// <summary>
+/// Base interface for our service locator to work with. Services implementing
+/// this interface will be retrievable using the locator.
+/// </summary> 
+public interface IGameService 
 {
 
 }
